@@ -1,4 +1,4 @@
-def roll_call_dwarves(list)
+def roll_call_dwarves(names)
   array = []
   list.each_with_index.do |name, index|
     array.push("#{index + 1}. #{name}")
