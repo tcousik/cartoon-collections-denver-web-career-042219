@@ -7,11 +7,9 @@ puts array
 end
 
 def summon_captain_planet(calls)
-  array = []
-  calls.map do |words|
-    array.push("#{words.capitalize}!")
-  end
-  puts array
+  calls.each do |caps|
+    calls.capitalize << caps
+  
 end
 
 def long_planeteer_calls# code an argument here
