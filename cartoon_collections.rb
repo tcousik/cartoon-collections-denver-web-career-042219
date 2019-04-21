@@ -1,4 +1,5 @@
 def roll_call_dwarves(list)
+  array = []
   
 end
 
