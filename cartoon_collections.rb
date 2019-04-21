@@ -7,7 +7,7 @@ puts array
 end
 
 def summon_captain_planet(calls)
-  calls.each do |caps|
+  calls.map do |caps|
     caps.capitalize << !
 end
 
